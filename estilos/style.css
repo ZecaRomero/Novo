@@ -21,8 +21,24 @@ header > h1 {
     text-align: center;
 }
 
-menu {
+i#burguer{
+
+    background-color: rgb(50, 47, 47);
     display: block;
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+    cursor: pointer;
+
+}
+
+i#burguer:hover { /*QUANDO PASSAR O MOUSE POR CIMA DO MENU*/
+    background-color: white;
+    color: black;
+}
+
+menu {
+    display: none;
 }
 
 menu > ul {  /*A LISTA QUE ESTA DENTRO DO MENU*/
