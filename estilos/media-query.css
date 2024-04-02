@@ -23,5 +23,10 @@ GRANDES TELAS: ACIMA DE 1200PX */
 
 menu > ul > li { /*PARA FICAR UM DO LADO DO OUTRO */
     display: inline-block;
+    
+}
+
+main {
+    width: 600px;
 }
 

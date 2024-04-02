@@ -15,7 +15,7 @@
   <!--t-->
 
 </head>
-<body>
+<body onresize="mudouTamanho"> <!--JAVASCRIPT-->
 
     <header>
         <h1>Testando Menu Hamburguer</h1>
@@ -61,6 +61,17 @@
     </main>
 
     <script>
+
+        function mudouTamanho(){
+
+            if(window.innerWidth >= 600){ /*testando largura da tela*/
+                itens.style.display = 'block'
+                
+            } else {
+                itens.style.display = 'none'
+            }
+
+        }
 
         function clickMenu(){
 
