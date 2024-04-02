@@ -1,5 +1,68 @@
 @charset "UTF-8";
 
+* {
+
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
 body, html {
-    background-color: lightblue;
+    background-color: rgba(8, 54, 171, 0.271);
+}
+
+header {
+
+    background-color: rgba(120, 118, 122, 0.311);
+}
+
+header > h1 {
+    padding: 10px;
+    text-align: center;
+}
+
+menu {
+    display: block;
+}
+
+menu > ul {  /*A LISTA QUE ESTA DENTRO DO MENU*/
+
+    list-style-type: none;
+
+}
+
+menu > ul > li > a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    
+    color: rgb(255, 247, 247);
+    background-color: rgba(119, 119, 123, 0.345);
+    border-top: 2px solid rgb(13, 146, 133);
+}
+
+menu > ul > li > a:hover{ /*PASSANDO O MOUSE EM CIMA*/
+    background-color: rgb(13, 219, 219);
+    color: rgb(205, 16, 16);
+}
+
+main {
+    width: 90vw;
+    background-color: white;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+article > h2 {
+    padding-bottom: 20px;
+}
+
+article > p {
+    text-align: justify;
+    margin-bottom: 20px;
+    text-indent: 20px;
 }
